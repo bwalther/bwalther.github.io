@@ -1,0 +1,51 @@
+.top-section {
+  margin-bottom: 1em;
+  border-bottom: grey 1px;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.flex-container > .stat-txt {
+  background-color: #f1f1f1;
+  margin: 10px;
+  text-align: center;
+}
+
+.text-small {
+  font-size: 0.8em;
+  font-weight: normal;
+  p {
+    margin-bottom: inherit;
+  }
+}
+
+h3 {
+  font-size: 1.6em;
+}
+h4 {
+  font-size: 1.2em;
+  font-weight: bolder;
+}
+.continent-desc {
+ padding: 10px;
+  p {
+    line-height: 1.3em;
+    font-size: 0.8em;
+  }
+}
+
+figcaption {
+  margin-bottom: 10px;
+}
+
+.grid-container {
+  margin-left: inherit;
+}
+
+.cell {
+  align-items: flex-start;
+}
+

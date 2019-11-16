@@ -32,7 +32,7 @@ function loadConfig() {
 // Build the "dist" folder by running all of the below tasks
 // Sass must be run later so UnCSS can search for used classes in the others assets.
 gulp.task('build',
- gulp.series(clean, gulp.parallel(pages, javascript, images, copy), sass, styleGuide));
+ gulp.series(clean, gulp.parallel(pages, javascript, images, fonts, copy), sass, styleGuide));
 
 // Build the site, run the server, and watch for file changes
 gulp.task('default',
@@ -55,7 +55,7 @@ function copy() {
 function pages() {
   return gulp.src('src/pages/**/*.{html,hbs,handlebars}')
     .pipe(panini({
-      root: 'src/pages/',
+        root: 'src/pages/',
       layouts: 'src/layouts/',
       partials: 'src/partials/',
       data: 'src/data/',
@@ -101,6 +101,12 @@ function sass() {
     .pipe($.if(!PRODUCTION, $.sourcemaps.write()))
     .pipe(gulp.dest(PATHS.dist + '/assets/css'))
     .pipe(browser.reload({ stream: true }));
+}
+
+// Copy fonts to the "dist" folder
+function fonts() {
+  return gulp.src(PATHS.fonts)
+      .pipe(gulp.dest(PATHS.dist + '/assets/fonts'));
 }
 
 let webpackConfig = {
@@ -169,5 +175,6 @@ function watch() {
   gulp.watch('src/assets/scss/**/*.scss').on('all', sass);
   gulp.watch('src/assets/js/**/*.js').on('all', gulp.series(javascript, browser.reload));
   gulp.watch('src/assets/img/**/*').on('all', gulp.series(images, browser.reload));
+  gulp.watch('node_modules/@fortawesome/fontawesome-free/webfonts/*').on('all', gulp.series(fonts, browser.reload));
   gulp.watch('src/styleguide/**').on('all', gulp.series(styleGuide, browser.reload));
 }
