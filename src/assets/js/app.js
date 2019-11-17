@@ -15,9 +15,17 @@ require('foundation-sites');
 
 $(document).foundation();
 
-
-$('.title-bar').on('sticky.zf.stuckto:top', function(){
-    $(this).addClass('shrink');
-}).on('sticky.zf.unstuckfrom:top', function(){
-    $(this).removeClass('shrink');
-})
+$(function() {
+    $("#topBtn").click(function() {
+        document.body.scrollTop = 0;
+        document.documentElement.scrollTop = 0;
+        return false;
+    })
+    $(window).scroll(function(){
+        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20){
+            $("#topBtn").show();
+        } else {
+            $("#topBtn").hide();
+        }
+    })
+});

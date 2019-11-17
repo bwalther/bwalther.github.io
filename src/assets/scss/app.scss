@@ -68,23 +68,5 @@
 @import "fontawesome";
 @import "solid";
 
-body {
-  color: #3f3844;
-  font-family: "proxima-nova-soft", "Proxima Nova Soft", Helvetica, Arial, sans-serif;
-  //background-color: #eeeeee;
-}
-
-.top-bar, .top-bar ul, .top-bar-title, .top-bar-left, .top-bar-right {
-   background-color: #f7f7f7;
- }
-
-.top-bar-title {
-  font-size: 1.6em;
-  font-weight: bold;
-  padding-left: 10px;
-}
-
-//@import "components/sticky-menu";
 @import "components/img";
-@import "components/stats";
 @import "components/layout";
