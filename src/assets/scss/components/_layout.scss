@@ -1,10 +1,17 @@
+$txtcolor: #3f3844;
+
 body {
-  color: #3f3844;
+  color: $txtcolor;
   font-family: "proxima-nova-soft", "Proxima Nova Soft", Helvetica, Arial, sans-serif;
 }
 
-.top-bar, .top-bar ul, .top-bar-title, .top-bar-left, .top-bar-right {
+.top-bar, .top-bar ul, .top-bar-title, .top-bar-left, .top-bar-right, .title-bar {
   background-color: #f7f7f7;
+  color: $txtcolor;
+  padding: inherit;
+}
+.title-bar {
+  padding: 5px;
 }
 
 .top-bar-title {
@@ -13,6 +20,10 @@ body {
   padding-left: 10px;
 }
 
+.title-bar-title {
+  font-size: 1.6em;
+  font-weight: bold;
+}
 
 #topBtn {
   display: none;
@@ -35,17 +46,10 @@ body {
   color: inherit;
 }
 
-.top-section {
-  margin-bottom: 1em;
-  border-bottom: grey 1px;
-}
-
 .flex-container {
-  display: flex;
-  flex-direction: row;
   flex-wrap: wrap;
 }
-.flex-container > .stat-txt {
+.stat-txt {
   background-color: #f1f1f1;
   margin: 10px;
   text-align: center;
