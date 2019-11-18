@@ -1,18 +1,22 @@
 africa-pics:
   -
     link: 'https://photos.app.goo.gl/8fTWDokoQwmXkznTA'
-    img: assets/img/south-africa-fotos.png
+    img: assets/img/thumb-namibia.jpg
+    text: South Africa & Namibia
   -
     link: 'https://photos.app.goo.gl/dw5oLMvGVWwhq5u88'
-    img: assets/img/botswana-fotos.png
+    img: assets/img/thumb-zambia.jpg
+    text: Botswana, Zimbabwe & Zambia
   -
     link: 'https://photos.app.goo.gl/FjxqSKpKdZ7KDNDB6'
-    img: assets/img/uganda-fotos2.png
+    img: assets/img/thumb-uganda.jpg
+    text: Rwanda & Uganda
 
 usa-pics:
   -
     link: 'https://photos.app.goo.gl/AcKWVpFeacEsAQ5n8'
-    img: assets/img/usa-fotos.png
+    img: assets/img/thumb-usa.jpg
+    text: US & A
 
 africa-routes:
   -

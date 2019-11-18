@@ -1,10 +1,9 @@
 <h4>Overland routes</h4>
 <div class="grid-x grid-padding-x">
     {{#each travel-routes}}
-    <div class="cell small-12 medium-6">
+    <div class="cell small-12 medium-6 routes-grid">
         <figure>
-            <a href="{{link}}" target="_blank" title="Open in Google Maps"><img src="{{../root}}{{img}}"
-                                                   style="max-height: 450px;object-fit: contain; width: auto"/></a>
+            <a href="{{link}}" target="_blank" title="Open in Google Maps"><img src="{{../root}}{{img}}"/></a>
             <figcaption>{{text}}</figcaption>
         </figure>
     </div>

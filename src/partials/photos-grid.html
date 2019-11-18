@@ -1,7 +1,10 @@
 <div class="flex-container">
     {{#each pics}}
-    <div>
-        <a target="_blank" href="{{link}}"><img src="{{../root}}{{img}}" style="max-width: 300px"/></a>
+    <div class="photo-grid">
+        <figure>
+            <a target="_blank" href="{{link}}"><img src="{{../root}}{{img}}"/></a>
+            <figcaption>{{text}}</figcaption>
+        </figure>
     </div>
     {{/each}}
 </div>

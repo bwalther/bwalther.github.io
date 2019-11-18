@@ -86,6 +86,24 @@ figcaption {
   margin-left: inherit;
 }
 
+.photo-grid {
+  margin: 10px;
+  img {
+    max-height: 239px;
+    object-fit: contain;
+    width: auto;
+    border-radius: 5px;
+  }
+}
+
+.routes-grid {
+  img {
+    max-height: 450px;
+    object-fit: contain;
+    width: auto
+  }
+}
+
 .cell {
   align-items: flex-start;
 }
