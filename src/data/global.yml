@@ -23,6 +23,16 @@ africa-second-pics:
     link: 'https://photos.app.goo.gl/kjdA7vjXLTQHMhWV7'
     img: assets/img/thumb-sa.jpg
     text: South Africa et al
+  -
+    link: 'https://photos.app.goo.gl/X8F1JFGgYJtnMsw16'
+    img: assets/img/thumb-uganda2.jpg
+    text: Uganda 2nd
+
+thailand-pics:
+  -
+    link: 'https://photos.app.goo.gl/MqoXWSQK9ZS2amvo7'
+    img: assets/img/thumb-thailand.jpg
+    text: Thailand
 
 africa-routes:
   -
@@ -53,3 +63,4 @@ africa-second-routes:
     link: 'https://www.google.ch/maps/dir/Johannesburg,+South+Africa/Durban,+South+Africa/Umtentweni,+Port+Shepstone,+South+Africa/Coffee+Bay,+South+Africa/Port+Elizabeth,+South+Africa/Jeffreys+Bay,+South+Africa/Elephant+Sanctuary,+The+Crags,+Plettenberg+Bay/Plettenberg+Bay,+South+Africa/Wilderness,+South+Africa/Cape+Town,+South+Africa/@-30.4743077,21.0980264,6.14z/data=!4m62!4m61!1m5!1m1!1s0x1e950c68f0406a51:0x238ac9d9b1d34041!2m2!1d28.0473051!2d-26.2041028!1m5!1m1!1s0x1ef7aa0001bc61b7:0xcca75546c4aa6e81!2m2!1d31.0218404!2d-29.8586804!1m5!1m1!1s0x1e58a16964485cfb:0xfae1d43d1666ad46!2m2!1d30.464566!2d-30.71803!1m5!1m1!1s0x1e5e4206368b5b13:0xb287fe6f0b2fabba!2m2!1d29.1492404!2d-31.9849029!1m5!1m1!1s0x1e7b290045ffd62b:0x86fd2337cd894226!2m2!1d25.6022423!2d-33.9608369!1m5!1m1!1s0x1e7a55fe316c8f35:0xd73923e546801f08!2m2!1d24.9101544!2d-34.0506714!1m5!1m1!1s0x1e7918cb8819cf7b:0xda45ab2307c307f5!2m2!1d23.481409!2d-33.960268!1m5!1m1!1s0x1e791e14e51839cb:0x2ab87e87adeada8b!2m2!1d23.3644925!2d-34.0574892!1m5!1m1!1s0x1dd61d81def6234f:0x51992275ebb3dfd3!2m2!1d22.5748481!2d-33.9940082!1m5!1m1!1s0x1dcc500f8826eed7:0x687fe1fc2828aa87!2m2!1d18.4240553!2d-33.9248685!3e0'
     img: assets/img/jnb-ct-route-sat.png
     text: From Johannesburg to Cape Town
+

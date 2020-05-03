@@ -1,10 +1,10 @@
 <div class="grid-container">
     <div class="cell small-4 flex-container">
-        <div class="stat-txt">12 countries</div>
-        <div class="stat-txt">2 continents</div>
-        <div class="stat-txt">17 flights</div>
-        <div class="stat-txt">180 days</div>
-        <div class="stat-txt">1 million smiles</div>
+        <div class="stat-txt">13 countries</div>
+        <div class="stat-txt">3 continents</div>
+        <div class="stat-txt">26 flights (7 intercont.)</div>
+        <div class="stat-txt">340 days</div>
+        <div class="stat-txt">10 million smiles</div>
     </div>
     <div class="grid-x grid-padding-x top-section">
         <div class="cell small-12 img-cell">
@@ -35,9 +35,9 @@
     <div class="grid-x margin-y top-section">
         <div class="cell text-small">
             <p>Start date: 20th April 2019</p>
-            <p>Status: Travelling</p>
-            <p>Location: Undefined</p>
-            <p>Instagram: <a href="https://www.instagram.com/steadyleaps" target="_blank">Steadyleaps</a></p>
+            <p>End date: 2nd April 2020 (due to Corona)</p>
+            <p>Location: Switzerland</p>
+            <p>Instagram: <a href="https://www.instagram.com/steadyleaps" target="_blank">steadyleaps</a></p>
         </div>
     </div>
     <hr>
@@ -70,7 +70,8 @@
         </div>
     </div>
     {{> routes-grid travel-routes=global.africa-routes }}
-    <hr>
+
+    <hr><hr>
     <h3 id="usa">USA</h3>
     <h6>Aug - Oct 2019</h6>
     <h4>Photos</h4>
@@ -94,7 +95,7 @@
     </div>
     {{> routes-grid travel-routes=global.usa-routes }}
 
-    <hr>
+    <hr><hr>
     <h3 id="africa2">Africa - second part</h3>
     <h6>Nov 2019 - Feb 2020</h6>
     <h4>Photos</h4>
@@ -119,9 +120,34 @@
                 <li>Lusaka New Years</li>
                 <li>Durban to Cape Town, Wildcoast and Garden route on the bazbus</li>
                 <li>Cape Town and Western cape</li>
-                <li>Kampala and Jinja</li>
+                <li>Back to Uganda: Kampala & Jinja (Bujagali)</li>
+                <li>Back to Joburg</li>
             </ul>
         </div>
     </div>
     {{> routes-grid travel-routes=global.africa-second-routes }}
+
+    <hr><hr>
+    <h3 id="thailand">Thailand</h3>
+    <h6>March 2020</h6>
+    <h4>Photos</h4>
+    {{> photos-grid pics=global.thailand-pics }}
+    <hr>
+    <h4>Routes</h4>
+    <div class="grid-x grid-padding-x grid-margin-y">
+        <div class="cell small-12 medium-4">
+            <figure>
+                <img src="{{root}}assets/img/thailand-flights.png" alt="Flights Thailand"
+                     style="max-height: 400px;object-fit: contain; width: auto">
+                <figcaption>Flights</figcaption>
+            </figure>
+        </div>
+        <div class="cell small-12 medium-auto margin-top-2">
+            <ul>
+                <li>Crazy buzzling Bangkok</li>
+                <li>Chiang Mai & Pai</li>
+                <li>Phuket, Corona..</li>
+            </ul>
+        </div>
+    </div>
 </div>
